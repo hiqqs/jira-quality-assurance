@@ -1,21 +1,18 @@
-{panel:bgColor=#eae6ff}
-*Test Environment*
-
+{panel:title=(i) *Test Environment*|bgColor=#eae6ff}
 k8s cluster: *development*
 *Browser:* G\! Chrome Version 86.0.4240.80 (Official Build) (x86_64)
 *User:* [yourJiraUser|mailto:yourJiraUser@yourDomain.com]
 *client:* QA
 {panel}
 
-{panel:bgColor=#deebff}
-*Issue*
+{panel:title=(i) *Issue*|bgColor=#deebff}
+
 The lazy brown fox was “_PAGE NOT FOUND”_ in the UI for *[feature x]*
 
 _Expected:_ New investors that get created are able to drill down into and display information properly to UI
 {panel}
 
-{panel:bgColor=#fffae6}
-*Steps to replicate*
+{panel:title=(!) *Steps to replicate*|bgColor=#fffae6}
 
 * step 1
 * step 2.. select ...
@@ -23,8 +20,7 @@ _Expected:_ New investors that get created are able to drill down into and displ
 * step 4 lazy brown fox didn't jump
 * (!) Hits a request error
 
-{panel:bgColor=#ffebe6}
-*Request URL:* {{https://your-request-env.wee.com/lazy/brown/fox}}
+{panel:title=(x) *Request URL:* {{https://your-request-env.wee.com/lazy/brown/fox}}|bgColor=#ffebe6}
 
 *Payload:* {{published: false}}
 
