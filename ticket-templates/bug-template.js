@@ -23,7 +23,7 @@ _Expected:_ New investors that get created are able to drill down into and displ
 
 {panel:title=(x) *Request URL:* `https://your-request-env.wee.com/lazy/brown/fox`|bgColor=#ffebe6}
 
-*Payload:* {{published: false}}
+*Payload:* {{payloadfKey: valueExample}}
 
 *Response:* 500
 \{"timestamp":"2020-10-21T15:15:44.075+00:00","status":500,"error":"Internal Server Error","message":"","path":"/lazy/brown/fox/"}
