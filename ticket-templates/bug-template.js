@@ -19,8 +19,9 @@ _Expected:_ New investors that get created are able to drill down into and displ
 * navigate to step 3..toFixed.
 * step 4 lazy brown fox didn't jump
 * (!) Hits a request error
+{panel}
 
-{panel:title=(x) *Request URL:* {{https://your-request-env.wee.com/lazy/brown/fox}}|bgColor=#ffebe6}
+{panel:title=(x) *Request URL:* `https://your-request-env.wee.com/lazy/brown/fox`|bgColor=#ffebe6}
 
 *Payload:* {{published: false}}
 
